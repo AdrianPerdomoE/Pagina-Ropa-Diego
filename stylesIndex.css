@@ -1,0 +1,26 @@
+#Products{
+    display: grid;
+	grid-template-columns: repeat(3,1fr) ;
+    gap: 5rem;
+    transition: 300ms;
+}
+#Products div{
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   transition: 300ms;
+}
+#Products div img{
+    width: 10rem;
+    height: 13rem;
+    overflow: hidden;
+}
+#Products div:hover{
+    border: 0.1rem solid blueviolet;
+    cursor: pointer;
+    box-shadow: 0.3rem 0.3rem rgba(69,21, 118, 0.5);; 
+}
+footer{
+    display: flex;
+    top: 90%;
+}
